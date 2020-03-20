@@ -11,6 +11,6 @@ final_counter = count1.expand_counter(4)  # 参数4表示这里采用了4-gram�
 correct_sample1 = mixin('qignhuadaxeu', final_counter, edit_op)
 correct_sample2 = mixin('zhesihyiege', final_counter, edit_op)
 ````
-## 案列
+## 案例
  `清华大学`  'qignhuadaxeu' => ['qing', 'hua', 'da', 'xue']    <br>
  `这是一个`  'zhesihyiege'  => ['zhe', 'shi', 'yi', 'ge']   
